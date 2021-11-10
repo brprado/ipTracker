@@ -1,7 +1,7 @@
 import geocoder
 import folium
 
-g = geocoder.ip("138.204.179.49")
+g = geocoder.ip("coloque o IP")
 
 myAdress = g.latlng
 print(myAdress)
